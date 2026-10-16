@@ -1,9 +1,9 @@
 name: Build and Release MagiskRenef
 
+# Fork: triggers trimmed to manual-only.
+# Upstream fires this on every push to main, on repository_dispatch and on a daily
+# cron, and it creates a GitHub release and pushes a tag. Not wanted in this fork.
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
     inputs:
       force_release:
@@ -11,10 +11,6 @@ on:
         required: false
         default: false
         type: boolean
-  repository_dispatch:
-  schedule:
-    # Run daily at 13:08 UTC
-    - cron: "8 13 * * *"
 
 jobs:
   build:
