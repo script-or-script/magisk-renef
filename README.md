@@ -213,6 +213,8 @@ FORCE_RELEASE=1 uv run python3 main.py   # force a rebuild
 - [magisk-frida](https://github.com/ViRb3/magisk-frida) by ViRb3 — structure inspiration
 
 The engine binaries redistributed here are Apache-2.0; upstream's `LICENSE` and this
-attribution must be preserved if you pass them on. The module repository itself ships
-**no licence file**, so its own code is all-rights-reserved by default — keep this fork
-private unless that changes.
+attribution must be preserved if you pass them on.
+
+The module repository (`vichhka-git/magisk-renef`) ships **no licence file**, so by
+default its own code is all-rights-reserved — this fork redistributes it unmodified for
+personal use, and that is not a grant of rights over it.

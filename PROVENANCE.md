@@ -65,6 +65,8 @@ Then drop the two files into `base/system/bin/` and `base/system/lib64/` and run
 ## Licensing
 
 The engine (`ahmeth4n/renef`) is **Apache-2.0**; keep its `LICENSE` and state
-modifications when redistributing. This module repository ships **no licence
-file**, so its own code is all-rights-reserved by default — keep this fork
-private unless that changes.
+modifications when redistributing.
+
+The module repository (`vichhka-git/magisk-renef`) ships **no licence file**, so by
+default its own code is all-rights-reserved. This fork mirrors it unmodified for
+personal use; that is not a grant of rights over upstream's code.
